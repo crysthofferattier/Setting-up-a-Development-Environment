@@ -1,5 +1,5 @@
 # Setting up a Development Environment
-Setting up a Development Environment for web/mobile development
+Setting up a web/mobile development environment in a Linux distribution.
 
 ## Getting Started
 [Ubuntu](https://www.ubuntu.com/download/desktop) - Ubuntu 16.04.1 LTS
@@ -14,6 +14,16 @@ Setting up a Development Environment for web/mobile development
 * [PHP](https://secure.php.net/) - PHP 7.0
 * [Java](https://www.java.com/pt_BR/) - Java 9
 * [Composer](https://getcomposer.org/) - Dependency Manager for PHP
+* [NPM](https://www.npmjs.com/) - Package manager for JavaScript
+
+
+### Installation Guide
+This installation guide provides instructions on how to manually install and configure software on a web server.
+
+```
+Give the example
+```
+
 
 ## Authors
 
