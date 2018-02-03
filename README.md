@@ -17,11 +17,15 @@ Setting up a web/mobile development environment in a Linux distribution.
 * [NPM](https://www.npmjs.com/) - Package manager for JavaScript
 
 
-### Installation Guide
+## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
+### NodeJS
+
 ```
-Give the example
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ sudo apt-get install -y build-essential
 ```
 
 
