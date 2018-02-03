@@ -14,6 +14,7 @@ Setting up a web/mobile development environment in a Linux distribution.
 * [PHP](https://secure.php.net/) - PHP 7.0
 * [NodeJS](https://nodejs.org/en/about/) - NodeJS 8.x LTS
 * [Composer](https://getcomposer.org/) - Dependency Manager for PHP
+* [MySql](https://www.mysql.com/) - MySql server
 * [NPM](https://www.npmjs.com/) - Package manager for JavaScript
 * [Git](https://git-scm.com/) - Version control system
 * [Sublime Text](https://www.sublimetext.com/) - Sublime Text is a sophisticated text editor for code, markup and prose
@@ -23,12 +24,6 @@ Setting up a web/mobile development environment in a Linux distribution.
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
-### PHP 7.0
-
-```
-$ sudo apt-get install php7.0
-```
-
 ### Java 9
 
 ```
@@ -37,13 +32,11 @@ $ sudo apt-get install oracle-java9-installer
 $ sudo apt-get install oracle-java9-set-default
 ```
 
-### MySQL 5.7.21
+### PHP 7.0
 
 ```
-$ sudo apt-get install mysql-server
-$ mysql_secure_installation
+$ sudo apt-get install php7.0
 ```
-
 
 ### NodeJS 8.9.4
 
@@ -65,6 +58,14 @@ $ php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece
 $ php composer-setup.php
 $ php -r "unlink('composer-setup.php');"
 $ mv composer.phar /usr/local/bin/composer
+```
+
+
+### MySQL 5.7.21
+
+```
+$ sudo apt-get install mysql-server
+$ mysql_secure_installation
 ```
 
 ### Git 2.7.4
