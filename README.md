@@ -20,12 +20,25 @@ Setting up a web/mobile development environment in a Linux distribution.
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
-### PHP
-
-PHP installation guide
+### PHP 7.0
 
 ```
 $ sudo apt-get install php7.0
+```
+
+### Java 9
+
+```
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get install oracle-java9-installe
+$ sudo apt-get install oracle-java9-set-default
+```
+
+### MySQL
+
+```
+$ sudo apt-get install mysql-server
+$ mysql_secure_installation
 ```
 
 
