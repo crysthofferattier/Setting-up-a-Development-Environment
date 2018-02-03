@@ -20,6 +20,15 @@ Setting up a web/mobile development environment in a Linux distribution.
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
+### PHP
+
+PHP installation guide
+
+```
+$ sudo apt-get install php7.0
+```
+
+
 ### NodeJS
 
 NodeJS installation guide [link](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
@@ -28,6 +37,18 @@ NodeJS installation guide [link](https://nodejs.org/en/download/package-manager/
 $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 $ sudo apt-get install -y build-essential
+```
+
+### Composer
+
+Composer installation guide [link](https://getcomposer.org/download/)
+
+```
+$ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+$ php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+$ php composer-setup.php
+$ php -r "unlink('composer-setup.php');"
+$ mv composer.phar /usr/local/bin/composer
 ```
 
 
