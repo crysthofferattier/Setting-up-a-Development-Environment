@@ -67,4 +67,5 @@ $ mv composer.phar /usr/local/bin/composer
 
 ## Authors
 
-* **Crysthoffer Amira Ratier** - *Initial work* - [Linkedin](https://www.linkedin.com/in/crysthofferatier/)
+* **Crysthoffer Amira Ratier** - *Initial work* - ![Linkedin](https://image.flaticon.com/icons/png/512/174/174857.png)
+https://www.linkedin.com/in/crysthofferatier/
