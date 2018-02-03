@@ -22,6 +22,8 @@ This installation guide provides instructions on how to manually install and con
 
 ### NodeJS
 
+NodeJS installation guide [link](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+
 ```
 $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
