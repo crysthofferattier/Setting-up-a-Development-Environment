@@ -21,13 +21,13 @@ Setting up a web/mobile development environment in a Linux distribution.
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
-### PHP 7.0
+### PHP 7.0 (2/2018)
 
 ```
 $ sudo apt-get install php7.0
 ```
 
-### Java 9
+### Java 9 (2/2018)
 
 ```
 $ sudo add-apt-repository ppa:webupd8team/java
@@ -35,7 +35,7 @@ $ sudo apt-get install oracle-java9-installe
 $ sudo apt-get install oracle-java9-set-default
 ```
 
-### MySQL
+### MySQL 5.7.21 (2/2018)
 
 ```
 $ sudo apt-get install mysql-server
@@ -43,7 +43,7 @@ $ mysql_secure_installation
 ```
 
 
-### NodeJS
+### NodeJS 8.9.4 (2/2018)
 
 NodeJS installation guide [link](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
@@ -53,7 +53,7 @@ $ sudo apt-get install -y nodejs
 $ sudo apt-get install -y build-essential
 ```
 
-### Composer
+### Composer 1.6.3 (2/2018)
 
 Composer installation guide [link](https://getcomposer.org/download/)
 
@@ -65,7 +65,7 @@ $ php -r "unlink('composer-setup.php');"
 $ mv composer.phar /usr/local/bin/composer
 ```
 
-### Git
+### Git 2.7.4 (2/2018)
 
 Git installation guide [link](https://git-scm.com/download/linux)
 
