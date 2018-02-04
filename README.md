@@ -10,6 +10,7 @@ Setting up a web/mobile development environment in a Linux distribution.
 
 ## Built With
 
+* [Nvidia](http://www.nvidia.com.br/graphics-cards/geforce/pascal/br/gtx-1050) - Nvidia driver
 * [Ubuntu Restricted Extras](https://en.wikipedia.org/wiki/Ubuntu-restricted-extras) - Software package for the computer operating system Ubuntu
 * [Curl](https://www.java.com/pt_BR/) - Java SE Development Kit 9
 * [Java](https://www.java.com/pt_BR/) - Java SE Development Kit 9
@@ -21,13 +22,18 @@ Setting up a web/mobile development environment in a Linux distribution.
 * [Git](https://git-scm.com/) - Version control system
 * [Sublime Text](https://www.sublimetext.com/) - Sublime Text is a sophisticated text editor for code, markup and prose
 * [VirtualBox](https://www.virtualbox.org/) -  Virtualization product
-* [Nvidia](http://www.nvidia.com.br/graphics-cards/geforce/pascal/br/gtx-1050) - Nvidia driver
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE for PHP development
 * [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2) - IDE for Java development
 
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
+
+### Nvidia v384
+
+```
+$ sudo apt-get install nvidia-384 nvidia-modprobe
+```
 
 ### Ubuntu Restricted Extras
 
@@ -112,10 +118,25 @@ $ sudo apt-get install sublime-text
 $ sudo apt-get install virtualbox
 ```
 
-### Nvidia v384
+### PhpStorm 2017.3
+
+[Download](https://download-cf.jetbrains.com/webide/PhpStorm-2017.3.4.tar.gz)
 
 ```
-$ sudo apt-get install nvidia-384 nvidia-modprobe
+$ tar -xvf PhpStorm-2017.3.4.tar.gz
+$ mv PhpStorm-173.4548.32/ phpstorm/
+$ cd phpstorm/bin
+$ ./phpstorm
+```
+
+### Eclipse Oxygen v2
+
+[Download](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-linux-gtk-x86_64.tar.gz)
+
+```
+$ tar -xvf eclipse-jee-oxygen-2-linux-gtk-x86_64.tar.gz
+$ cd eclipse
+$ ./eclipse
 ```
 
 
