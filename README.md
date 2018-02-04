@@ -75,7 +75,7 @@ $ sudo apt-get install -y build-essential
 
 ### NPM config
 
-Npm configuration [link](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+Npm configuration [link](https://docs.npmjs.com/getting-started/fixing-npm-permissions) <br>
 Back-up your computer before you start.
 ```
 $ mkdir ~/.npm-global
