@@ -11,6 +11,7 @@ Setting up a web/mobile development environment in a Linux distribution.
 ## Built With
 
 * [Ubuntu Restricted Extras](https://en.wikipedia.org/wiki/Ubuntu-restricted-extras) - Software package for the computer operating system Ubuntu
+* [Curl](https://www.java.com/pt_BR/) - Java SE Development Kit 9
 * [Java](https://www.java.com/pt_BR/) - Java SE Development Kit 9
 * [PHP](https://secure.php.net/) - PHP 7.0
 * [NodeJS](https://nodejs.org/en/about/) - NodeJS 8.x LTS
@@ -28,10 +29,16 @@ Setting up a web/mobile development environment in a Linux distribution.
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
 
-### Java v9.0.4
+### Ubuntu Restricted Extras
 
 ```
 $ sudo apt-get install ubuntu-restricted-extras
+```
+
+### Curl v7.47.0
+
+```
+$ sudo apt-get install curl
 ```
 
 ### Java v9.0.4
