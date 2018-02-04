@@ -73,6 +73,17 @@ $ sudo apt-get install -y nodejs
 $ sudo apt-get install -y build-essential
 ```
 
+### NPM config
+
+Npm configuration [link](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+Back-up your computer before you start.
+```
+$ mkdir ~/.npm-global
+$ npm config set prefix '~/.npm-global'
+$ export PATH=~/.npm-global/bin:$PATH
+$ source ~/.profile
+```
+
 ### Composer v1.6.3
 
 Composer installation guide [link](https://getcomposer.org/download/)
