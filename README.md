@@ -10,6 +10,7 @@ Setting up a web/mobile development environment in a Linux distribution.
 
 ## Built With
 
+* [Ubuntu Restricted Extras](https://en.wikipedia.org/wiki/Ubuntu-restricted-extras) - Software package for the computer operating system Ubuntu
 * [Java](https://www.java.com/pt_BR/) - Java SE Development Kit 9
 * [PHP](https://secure.php.net/) - PHP 7.0
 * [NodeJS](https://nodejs.org/en/about/) - NodeJS 8.x LTS
@@ -18,16 +19,26 @@ Setting up a web/mobile development environment in a Linux distribution.
 * [NPM](https://www.npmjs.com/) - Package manager for JavaScript
 * [Git](https://git-scm.com/) - Version control system
 * [Sublime Text](https://www.sublimetext.com/) - Sublime Text is a sophisticated text editor for code, markup and prose
+* [VirtualBox](https://www.virtualbox.org/) -  Virtualization product
+* [Nvidia](http://www.nvidia.com.br/graphics-cards/geforce/pascal/br/gtx-1050) - Nvidia driver
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE for PHP development
 * [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2) - IDE for Java development
 
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
 
+
+### Java v9.0.4
+
+```
+$ sudo apt-get install ubuntu-restricted-extras
+```
+
 ### Java v9.0.4
 
 ```
 $ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
 $ sudo apt-get install oracle-java9-installer
 $ sudo apt-get install oracle-java9-set-default
 ```
@@ -86,6 +97,18 @@ $ sudo apt-get install apt-transport-https
 $ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 $ sudo apt-get update
 $ sudo apt-get install sublime-text
+```
+
+### VirtualBox v5.0.40
+
+```
+$ sudo apt-get install virtualbox
+```
+
+### Nvidia v384
+
+```
+$ sudo apt-get install nvidia-384 nvidia-modprobe
 ```
 
 
