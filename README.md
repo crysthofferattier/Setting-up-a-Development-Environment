@@ -2,7 +2,7 @@
 Setting up a web/mobile development environment in a Linux distribution.
 
 ## Getting Started
-[Ubuntu](https://www.ubuntu.com/download/desktop) - Ubuntu 16.04.1 LTS
+[Ubuntu](https://www.ubuntu.com/download/desktop) - Ubuntu 16.04.1 LTS x64
 
 ### Prerequisites
 * Basic command line knowledge in Linux
