@@ -24,6 +24,7 @@ Setting up a web/mobile development environment in a Linux distribution.
 * [VirtualBox](https://www.virtualbox.org/) -  Virtualization product
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE for PHP development
 * [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2) - IDE for Java development
+* [Android Studio](https://developer.android.com/studio/index.html) - Android Studio IDE
 
 ## Installation Guide
 This installation guide provides instructions on how to manually install and configure software on a web server.
@@ -139,6 +140,13 @@ $ cd eclipse
 $ ./eclipse
 ```
 
+### Android 
+
+[Download](https://dl.google.com/dl/android/studio/ide-zips/3.0.1.0/android-studio-ide-171.4443003-linux.zip)
+
+```
+$ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+```
 
 ## Authors
 
