@@ -21,7 +21,8 @@ Setting up a web/mobile development environment in a Linux distribution.
 * [NPM](https://www.npmjs.com/) - Package manager for JavaScript
 * [Git](https://git-scm.com/) - Version control system
 * [Sublime Text](https://www.sublimetext.com/) - Sublime Text is a sophisticated text editor for code, markup and prose
-* [VirtualBox](https://www.virtualbox.org/) -  Virtualization product
+* [VirtualBox](https://www.virtualbox.org/) - Virtualization product
+* [7z](http://www.7-zip.org/) - For ZIP and GZIP formats
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE for PHP development
 * [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2) - IDE for Java development
 * [Android Studio](https://developer.android.com/studio/index.html) - Android Studio IDE
@@ -128,6 +129,12 @@ $ sudo apt-get install sublime-text
 
 ```
 $ sudo apt-get install virtualbox
+```
+
+### 7z v9.20
+
+```
+$ sudo apt-get install p7zip-full
 ```
 
 ### PhpStorm 2017.3
