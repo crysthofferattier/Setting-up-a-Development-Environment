@@ -168,4 +168,4 @@ $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz
 
 ## Authors
 
-* **Crysthoffer Amira Ratier** - *Initial work* - ![Linkedin](https://www.linkedin.com/in/crysthofferatier/)
+* **Crysthoffer Amira Ratier** - *Initial work* - [Linkedin](https://www.linkedin.com/in/crysthofferatier/)
