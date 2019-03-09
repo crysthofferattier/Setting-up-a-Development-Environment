@@ -166,6 +166,15 @@ $ ./eclipse
 $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 ```
 
+### Others
+
+Edit your ~/.nanorc file (or create it) and add:
+
+```
+set tabsize 4
+set tabstospaces
+```
+
 ## Authors
 
 * **Crysthoffer Amira Ratier** - *Initial work* - [Linkedin](https://www.linkedin.com/in/crysthofferatier/)
